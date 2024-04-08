@@ -1,0 +1,155 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>My Website</title>  
+<style>  
+  /* 基础样式 */  
+  body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+  }  
+  
+  .header {  
+    background-color: #f8f9fa;  
+    text-align: center;  
+    padding: 20px;  
+  }  
+  
+  .topnav {  
+    background-color: #333;  
+    overflow: hidden;  
+  }  
+  
+  .topnav a {  
+    float: left;  
+    display: block;  
+    color: #f2f2f2;  
+    text-align: center;  
+    padding: 14px 16px;  
+    text-decoration: none;  
+  }  
+  
+  .topnav a:hover {  
+    background-color: #ddd;  
+    color: black;  
+  }  
+  
+  .content {  
+    display: flex;  
+  }  
+  
+  .leftcolumn {  
+    flex: 3; /* 占据3/4宽度 */  
+    padding-right: 20px;  
+  }  
+  
+  .rightcolumn {  
+    flex: 1; /* 占据剩余宽度 */  
+  }  
+  
+  .card {  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
+    padding: 16px;  
+    margin-bottom: 20px;  
+  }  
+  
+  .fakeimg {  
+    height: 200px;  
+    background: #aaa;  
+    margin-bottom: 10px;  
+  }  
+  
+  .footer {  
+    text-align: center;  
+    padding: 10px;  
+    background-color: #333;  
+    color: white;  
+  }  
+  
+  /* 响应式布局 */  
+  @media screen and (max-width: 600px) {  
+    .content {  
+      flex-direction: column;  
+    }  
+    .leftcolumn, .rightcolumn {  
+      flex: 1;  
+    }  
+  }  
+</style>  
+</head>  
+<body>  
+  
+<div class="header">  
+  <h1>Fengler's Website</h1>  
+  <p>Welcome to my website!</p>  
+</div>  
+  
+<div class="topnav">  
+  <a href="Home.html">Home</a>  
+  <a href="project.html">project</a>  
+  <a href="travel.html">travel</a>  
+  <a href="#" style="float:right">About</a>  
+  
+</div>  
+  
+<div class="content">  
+  <div class="leftcolumn">  
+    <div class="card">  
+      <h2>my favorite sport</h2>  
+      <h5>Title description, JAN 8, 2024</h5>  
+      <img class="fakeimg" src="2222.jpg">
+      <p> it's a thrilling and exciting sport that always keeps me on the edge of my seat. </p>  
+      <p>The fast-paced action and intense competition make every game unpredictable and full of surprises.</p>  
+      <p> Playing basketball with my friends and teammates helps me develop strong bonds and learn the importance of working together to achieve a common goal.</p>  
+       
+    </div>  
+    <div class="card">  
+      <h2>My Favorite Pet</h2>  
+      <h5>Title description, JAN 8, 2024</h5>  
+      <img class="fakeimg" src="33.jpg">
+      <p> cats are incredibly charming and endearing creatures. Their soft fur, big eyes, and cute antics never fail to warm my heart and bring a smile to my face.</p>  
+      <p>cats are relatively independent animals, which suits my lifestyle perfectly. While they enjoy companionship and attention, they also appreciate their alone time, making them easy to care for. </p>  
+      <p>my love for cats stems from their charming appearance, independent nature, intelligent curiosity, and comforting presence, making them a wonderful addition to my life.</p>  
+     
+    </div>  
+  </div>  
+  <div class="rightcolumn">  
+    <div class="card">  
+      <h3>About Me</h3>  
+      <img class="fakeimg" src="99.jpg">
+      <p>Welcome to my personal website, where I record my growth and share my life insights.</p>  
+      <p>I am Fengler from IT2 class, and I am very passionate about sports and life.</p>  
+      <p>I can find my hobbies on this webpage</p>  
+    </div>  
+    
+    <div class="card">  
+        <h3>Popular Posts</h3>  
+        <!-- <div class="fakeimg">Image 1</div>  -->
+        <p>Here are some recent hot posts</p>  
+        <p>《Recipes for Delicious Vegan Meals》</p>  
+        <p>《DIY Home Decor Projects for the Holidays》</p>  
+        <p>《A Guide to Investing in Cryptocurrency》</p>  
+      </div>  
+        
+    
+        
+      <!-- Follow Me 容器 -->  
+      <div class="card">  
+        <h3>Follow Me</h3>  
+        <p>Follow me on social media for updates:</p>  
+        <p><a href="#">Facebook</a></p>  
+        <p><a href="#">Twitter</a></p>  
+        <p><a href="#">Instagram</a></p>  
+      </div>  
+      </div> <!-- 结束 rightcolumn -->  
+      </div> <!-- 结束 content -->  
+        
+      <div class="footer">  
+        <p>Copyright &copy; 2024 My Website. All rights reserved.</p>  
+      </div>  
+        
+      </body>  
+      </html>
